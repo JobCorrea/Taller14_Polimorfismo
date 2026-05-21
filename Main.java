@@ -22,5 +22,14 @@ public class Main{
         // ERROR: referencia de Persona no conoce estudiar()
         Persona p = new Persona();
         //p.estudiar(); // Error de compilación -The method estudiar() is undefined for the type Persona-
+
+        // Polimorfismo: referencia de Vehiculo 
+        Vehiculo vehiculo = new Vehiculo();
+        Vehiculo coche = new Coche("BMW");
+        Vehiculo bicicleta = new Bicicleta("Roja");
+
+        vehiculo.mover();
+        coche.mover();
+        bicicleta.mover();
     }
 }
