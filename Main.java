@@ -17,5 +17,10 @@ public class Main{
         estudiante.presentarse();
         profesor.presentarse();
         System.out.println();
+
+        //Pruebas error
+        // ERROR: referencia de Persona no conoce estudiar()
+        Persona p = new Persona();
+        //p.estudiar(); // Error de compilación -The method estudiar() is undefined for the type Persona-
     }
 }

@@ -11,4 +11,10 @@ public class Profesor extends Persona {
     public void presentarse() {
         System.out.println("Hola soy el profesor " + nombre + " y dicto la materia: " + materia);
     }
+    
+    // MAL: sobrescribe pero hace exactamente lo mismo
+    // @Override
+    // public void presentarse() {
+    //     System.out.println("Hola soy una persona");
+    // }
 }
